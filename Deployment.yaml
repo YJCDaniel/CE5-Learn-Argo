@@ -16,6 +16,6 @@ spec:
    spec:
      containers:
      - name: node
-       image: <your docker image>:latest
+       image: public.ecr.aws/u2q1a2y8/soon-node-docker-ecr-20240422:latest
        ports:
        - containerPort: 8080
